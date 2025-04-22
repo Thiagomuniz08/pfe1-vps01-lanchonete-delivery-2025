@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lanchonete Delivery</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="comeco">
+      <h1>Lanchonete Delivery</h1>
+      <a href="seguna.html"><button>Concluído</button></a>
+    </div>
+    <div class="form">
+      <div class="form-group">
+        <label>Cliente:</label>
+        <input id="cliente" type="text" placeholder="Digite seu nome completo">
+      </div>
+      <div class="form-group">
+        <label>Endereço:</label>
+        <input id="endereco" type="text" placeholder="Digite o endereço completo">
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Produto:</label>
+        <select id="produto">
+          <option>Hamburguer</option>
+          <option>X-Burguer</option>
+          <option>X-Salada</option>
+          <option>X-Bacon</option>
+          <option>X-Egg</option>
+          <option>X-Tudo</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button id="gerarPedido">Gerar Pedido</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h3>Em execução</h3>
+        <div id="emExecucao"></div>
+      </div>
+
+      <div class="column">
+        <h3>A caminho</h3>
+        <div id="aCaminho"></div>
+      </div>
+    </div>
+  <script src="/script/script.js"></script>
+</body>
+</html>
